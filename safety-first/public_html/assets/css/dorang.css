@@ -11768,7 +11768,7 @@ body.light-theme .contact-section .footer .links a {
 }
 
 body.dark-theme {
-  background: #212529;
+  background: #343a40;
 }
 
 /* Map CSS */
@@ -11797,4 +11797,8 @@ body.dark-theme {
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
+}
+
+#dark-power {
+  background-color: rgb(0, 102, 102);
 }
