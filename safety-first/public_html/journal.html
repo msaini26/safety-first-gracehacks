@@ -100,7 +100,8 @@
 
         // append/get elements to the DOM
         const canvas = document.getElementById("canvas");
-        canvas.width = size; canvas.height = size;
+        canvas.width = size; 
+        canvas.height = size;
         ctx = canvas.getContext("2d");
         labelContainer = document.getElementById("label-container");
         for (let i = 0; i < maxPredictions; i++) { // and class labels
@@ -144,6 +145,7 @@
     }
 </script>
 
+<<<<<<< HEAD
                 <div class="card-body">
                     <p>Describe KEY REFERENCE HERE. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                     tempor incididunt ut labore et dolore magna aliqua.</p>
@@ -155,6 +157,14 @@
 
 
     core  -->
+=======
+    <!-- Model -->
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.3.1/dist/tf.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@teachablemachine/pose@0.8.3/dist/teachablemachine-pose.min.js"></script>
+
+
+    <!-- core  -->
+>>>>>>> e460883067861fb2d7cf90934fe655ab2bd57626
     <script src="assets/vendors/jquery/jquery-3.4.1.js"></script>
     <script src="assets/vendors/bootstrap/bootstrap.bundle.js"></script>
 
@@ -163,6 +173,8 @@
 
     <!-- Dorang js -->
     <script src="assets/js/dorang.js"></script>
+
+   
 
 </body>
 </html>

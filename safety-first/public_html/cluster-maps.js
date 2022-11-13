@@ -37,6 +37,8 @@ const locations = [
   // DINING HALLS
   // C9/10 Dining Hall
   { lat: 37.00097045577836, lng: -122.05773734043908 },
+  // Crown Dining Hall
+  { lat: 37.000173678672345, lng: -122.0543577892635 },
   // Cowell/Stevenson Dining Hall
   { lat: 36.99703040379368, lng: -122.05303809997403 },
   // Porter Dining Hall
@@ -82,15 +84,25 @@ const locations = [
   // Coolidge Dr & Hagar Ct (UCSC - Lower Campus)
   { lat: 36.981735664745045, lng: -122.05217698570723 },
   { lat: 36.981564254809946, lng: -122.0517585610912 },
-  // Crown Dining Hall
-  { lat: 37.000173678672345, lng: -122.0543577892635 },
+  // PATHS
+  // Science Hill to C9/10
+  // Bridge to C9/C10
+  { lat: 37.000050, lng: -122.061823  },
+  { lat: 37.000163, lng: -122.061374  },
+  { lat: 37.000099, lng: -122.060242  },
+  { lat: 36.999810, lng: -122.058659  },
+  // Cowell Student Health Center (by C9/C10)
+  { lat: 36.999790720983604, lng: -122.05746809916785},
+  { lat: 37.000082, lng: -122.057125},
+
+
+
+  
 
 
   // List of Bright Areas on Campus
 
-  // Bus Stops
-  // Dining Halls
-  // Libraries
+  
   // Health Center
   // Main Roads
 ];
