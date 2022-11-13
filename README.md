@@ -18,11 +18,7 @@ Our goal in GraceHacks was to stretch our learning through learning new technolo
 Starting off with a steep learning curve, we are proud of the final implementation of our safety map and the empowerment feature that we successfully embedded in our webpage; the process was difficult yet rewarding. Although modifying minor design details and image cohesion was tedious, we are proud of what we achieved! 
 
 ## What we learned
-Parna learned how to start an HTML project from scratch. Managing time properly and breaking down a large project into smaller parts is also something that she learned is beneficial when beginning to hack. Embedding APIs and other software involved a learning curve but it helped make our project more versatile.
-- begin html project
-- defining project scope
-- breaking down project into parts
-- embed other software/apis
+Parna learned how to start an HTML project from scratch. Managing time properly and breaking down a large project into smaller parts is also something that she learned is beneficial when beginning to hack. Embedding APIs and other software involved a learning curve but it helped make our project more versatile. This was Mansi's first time learning how to integrate the Google Maps API by dropping pinpoints on crucial locations and labeling them accordingly based on their location. She learned the importance of defining a clear project scope and defining its respective components ahead of time before diving straight into the development process. 
 
 
 ## What's next for Safety First
