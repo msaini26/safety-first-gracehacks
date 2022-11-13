@@ -1,15 +1,15 @@
 // Initialize and add the map
 function initMap() {
-    // The location of Uluru
-    const uluru = { lat: -25.344, lng: 131.031 };
-    // The map, centered at Uluru
+    // The location of UCSC Arboretum
+    const ucsc = { lat: 36.98230, lng: -122.05923};
+    // The map, centered at UCSC Arboretum
     const map = new google.maps.Map(document.getElementById("map"), {
-      zoom: 4,
-      center: uluru,
+      zoom: 4, // how much to zoom in on map (0 zoomed out maxs)
+      center: ucsc,
     });
-    // The marker, positioned at Uluru
+    // The marker, positioned at UCSC Arboretum
     const marker = new google.maps.Marker({
-      position: uluru,
+      position: ucsc,
       map: map,
     });
   }
