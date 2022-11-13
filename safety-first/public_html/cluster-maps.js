@@ -1,7 +1,8 @@
 function initMap() {
   const map = new google.maps.Map(document.getElementById("map"), {
-    zoom: 3,
-    center: { lat: -28.024, lng: 140.887 },
+    zoom: 14,
+    // center of ucsc map - music building
+    center: {lat: 36.993285007853096, lng: -122.06058681478636},
   });
   const infoWindow = new google.maps.InfoWindow({
     content: "",
@@ -31,29 +32,64 @@ function initMap() {
 }
 
 const locations = [
-  { lat: -31.56391, lng: 147.154312 },
-  { lat: -33.718234, lng: 150.363181 },
-  { lat: -33.727111, lng: 150.371124 },
-  { lat: -33.848588, lng: 151.209834 },
-  { lat: -33.851702, lng: 151.216968 },
-  { lat: -34.671264, lng: 150.863657 },
-  { lat: -35.304724, lng: 148.662905 },
-  { lat: -36.817685, lng: 175.699196 },
-  { lat: -36.828611, lng: 175.790222 },
-  { lat: -37.75, lng: 145.116667 },
-  { lat: -37.759859, lng: 145.128708 },
-  { lat: -37.765015, lng: 145.133858 },
-  { lat: -37.770104, lng: 145.143299 },
-  { lat: -37.7737, lng: 145.145187 },
-  { lat: -37.774785, lng: 145.137978 },
-  { lat: -37.819616, lng: 144.968119 },
-  { lat: -38.330766, lng: 144.695692 },
-  { lat: -39.927193, lng: 175.053218 },
-  { lat: -41.330162, lng: 174.865694 },
-  { lat: -42.734358, lng: 147.439506 },
-  { lat: -42.734358, lng: 147.501315 },
-  { lat: -42.735258, lng: 147.438 },
-  { lat: -43.999792, lng: 170.463352 },
+  // Science and Engineering Library
+  { lat: 36.99935359168222, lng: -122.06081091399794 },
+  // DINING HALLS
+  // C9/10 Dining Hall
+  { lat: 37.00097045577836, lng: -122.05773734043908 },
+  // Cowell/Stevenson Dining Hall
+  { lat: 36.99703040379368, lng: -122.05303809997403 },
+  // Porter Dining Hall
+  { lat: 36.99443619677812, lng: -122.06602160182447 },
+  // BUS STOPS
+  // Empire Grade and Heller Dr
+  { lat: 36.98850283477375, lng: -122.06878669554865},
+  // Loop - West Remote Entrance
+  { lat: 36.98886410138438, lng: -122.06704493609583},
+  { lat: 36.9887942048633, lng: -122.06472050925964},
+  // Oakes Bus Stop
+  { lat: 36.99061672407092, lng: -122.06608932778357},
+  { lat: 36.99003828152607, lng: -122.06718903350523},
+  // Family Student Housing
+  { lat: 36.9918575403007, lng: -122.06681895998592},
+  // Porter/Rachel Carson Bus Stop
+  { lat: 36.99310088882263, lng: -122.06519515956428},
+  { lat: 36.99287380450594, lng: -122.06484647238427 },
+  // Kerr Hall Bus Stop
+  {lat: 36.99680001834796, lng: -122.06357192855279},
+  // Kresge Bus Stop
+  { lat: 36.999374896164674, lng: -122.06455945604486},
+  {lat: 36.99931491664288, lng: -122.06436097257317},
+  // Science Hill Bus Stop
+  { lat: 37.00022585054624, lng: -122.06240706140848 },
+  { lat: 37.00003734542807, lng: -122.06222467119125 },
+  // McLaughlin Dr (UCSC - College 9 & 10 / Health Ctr)
+  { lat:36.99985660499242, lng: -122.05836293573715 },
+  { lat: 37.00001940528173, lng: -122.0582824694648 },
+  // McLaughlin Dr (UCSC - Crown & Merrill College)
+  { lat: 36.999167685364704, lng: -122.05521615679648 },
+  // Bookstore Bus Stop
+  { lat: 36.997572812174745, lng: -122.0550589701197 },
+  { lat: 36.99678877181611, lng: -122.05542375053913 },
+  // East Field House Stop
+  { lat: 36.99434609150224, lng: -122.05554783925446},
+  // East Remote Bus Stop
+  { lat: 36.99149532093058, lng: -122.05466878749002},
+  { lat: 36.99156387600054, lng: -122.05495846607036 },
+  // Hagar Dr & Village Rd (UCSC - The Farm) Stop
+  { lat: 36.98602534051601, lng: -122.05353391517569 },
+  { lat: 36.98562683429232, lng: -122.05356610168464 },
+  // Coolidge Dr & Hagar Ct (UCSC - Lower Campus)
+  { lat: 36.981735664745045, lng: -122.05217698570723 },
+  { lat: 36.981564254809946, lng: -122.0517585610912 },
+
+  // List of Bright Areas on Campus
+
+  // Bus Stops
+  // Dining Halls
+  // Libraries
+  // Health Center
+  // Main Roads
 ];
 
 window.initMap = initMap;
