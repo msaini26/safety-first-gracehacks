@@ -1,21 +1,28 @@
 # safety-first-gracehacks
 
 ## Inspiration
-After getting numerous CruzAlerts (Safety Alert System organized by the University of California, Santa Cruz) about incidents on campus that have made students and faculty feel unsafe, we decided to create a webpage to provide resources to stay safe and empowered. 
+
+Walking alone at night on campus with uncertainty is the worst feeling as a student. As the number of CruzAlerts (Safety Alert System organized by the University of California, Santa Cruz) regarding incidents that have made students and faculty feel unsafe increased, we decided to take matters into our own hands. With Safety First, we aim to help students get home safer feeling empowered.
 
 ## What it does
-Our webpage has a built-in map with pinpoints on the UCSC campus that are well-lit to help guide students and staff that are walking back late at night. It also has an empowerment section where individuals can feel empowered through power yoga poses designed to improve confidence over time. 
+We included a updated newsfeed that highlights recent university safety alerts and events. To guide students and faculty back home safely when walking late at night, we build a map with pinpoints on the UCSC campus that are well-lit and popular walking paths. We also developed an empowerment section where individuals can feel mentally stronger through power yoga poses designed to improve confidence through our machine learning pose detection model. Strike a pose with pride!
 
 ## How we built it
-We built the structure of our webpage using HTML, design using CSS, and functionality using Javascript. We used the Google Map API to build the safety spots on campus and we used TensorFlow.js to create the empowerment machine learning feature that takes visual user input to detect poses. 
+We built the structure of our webpage using HTML, design using CSS, and functionality using Javascript. We utilized the Google Map API to pinpoint crucial safety spots on campus with lampost icons to indicate popular walking paths and well-lit regions. For the empowerment feature, we utilized TensorFlow.js to develop our machine learning model that takes visual user input to detect poses. We classified our data set based on each pose type and were able to reach 95% accuracy overall.
 
 ## Challenges we ran into
+Our goal in GraceHacks was to stretch our learning through learning new technologies and expanding our skillset overall. This was our first time utilizing the Google Maps API to drop pinpoints at frequently used paths and well-lit regions. We ran into issues trying to highlight each cluster of lights (red: more frequent path and well-light; blue: less frequent and possible light) respectively. A solution we found was grouping pinpoints based on their relative location to highlight more frequent walking regions with good lighting. Also, in our first training session for our machine learning pose detection model, we did not include enough data points to account for edge cases. For example, this might include someone doing the pose from far away or closer towards the camera. After spending many hours training and testing our model, we were able to achieve an approximate of 96% accuracy.
 
 
 ## Accomplishments that we're proud of
-Getting the map and the empowerment feature successfully embedded in our webpage was difficult yet rewarding. Though changing small details with the design and the fit of images was tedious, we accomplished most of the goals we set for ourselves. 
+Starting off with a steep learning curve, we are proud of the final implementation of our safety map and the empowerment feature that we successfully embedded in our webpage; the process was difficult yet rewarding. Although modifying minor design details and image cohesion was tedious, we are proud of what we achieved! 
 
 ## What we learned
+Parna
+- begin html project
+- defining project scope
+- breaking down project into parts
+- embed other software/apis
 
 
 ## What's next for Safety First
