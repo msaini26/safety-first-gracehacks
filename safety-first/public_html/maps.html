@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Start your development with Dorang landing page.">
+    <meta name="author" content="Devcrud">
+    <title>Safety First</title>
+    <!-- font icons -->
+    <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
+
+    <!-- Bootstrap + Dorang main styles -->
+	<link rel="stylesheet" href="assets/css/dorang.css">
+
+    <!-- Import JS files -->
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <script type="module" src="cluster-map.js"></script>
+    <!-- modify js file import as necessary -->
+
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="40" id="home" class="dark-theme">
+    
+    <!-- page navbar -->
+    <nav class="page-navbar" data-spy="affix" data-offset-top="10">
+        <ul class="nav-navbar container">
+            <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+            <li class="nav-item"><a href="maps.html" class="nav-link">Explore</a></li>
+            <li class="nav-item"><a href="#" class="nav-link"><img src="assets/imgs/placeholder.svg" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, weber Landing page"></a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Journal</a></li>
+            <li class="nav-item search">
+                <a href="javascript:void(0)" class="nav-link search-toggle"><i class="ti-search"></i> Search</a>
+                <div class="search-wrapper">
+                    <form>
+                        <input type="search" class="form-control" name="" placeholder="hit enter to search">
+                    </form>
+                </div>
+            </li>
+        </ul>
+    </nav><!-- end of page navbar -->
+
+    <div class="theme-selector">
+        <a href="javascript:void(0)" class="spinner">
+            <i class="ti-paint-bucket"></i>
+        </a>
+        <div class="body">
+            <a href="javascript:void(0)" class="light"></a>
+            <a href="javascript:void(0)" class="dark"></a>
+        </div>
+    </div>  
+
+    <!-- page header -->
+    <header class="header">
+        <div class="overlay"></div>
+        <div class="header-content">
+            <h1 class="header-title">UCSC Safety Map</h1>
+        </div>
+    </header><!-- end of page header -->
+
+    <!-- page container -->
+    <div class="container page-container">
+        <div class="col-md-10 col-lg-8 m-auto">
+            <h6 class="title mb-4">Explore Safety Map here!</h6>
+        </div>  
+
+        <!-- TODO: insert map here -->
+
+        <div class="col-md-10 col-lg-8 m-auto">
+            <p class="mb-5">Describe the pin points down below. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor hi ut labore et dolore magna aliqua. Ut enim.</p>
+        </div>
+        
+        <!-- row -->
+        <div class="row mb-5">
+            <div class="col-md-12">
+                <!-- Single point map -->
+                <!--The div element for the map -->
+                <div class="card-img" id="map"></div>
+
+                <!-- 
+                The `defer` attribute causes the callback to execute after the full HTML
+                document has been parsed. For non-blocking uses, avoiding race conditions,
+                and consistent behavior across browsers, consider loading using Promises
+                with https://www.npmjs.com/package/@googlemaps/js-api-loader.
+                -->
+                <!-- Load script based on personal API -->
+                <script
+                src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&callback=initMap&v=weekly"
+                defer
+              ></script>
+
+              <!-- Executive map with clusters -->
+              <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&callback=initMap&v=weekly"
+      defer
+    ></script>
+                <div class="card-body">
+
+                    <p>Describe KEY REFERENCE HERE. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>                  
+                </a>
+            </div>  
+        </div><!-- end of row -->
+    </div> <!-- end of page container -->
+
+    <!-- core  -->
+    <script src="assets/vendors/jquery/jquery-3.4.1.js"></script>
+    <script src="assets/vendors/bootstrap/bootstrap.bundle.js"></script>
+
+    <!-- bootstrap affix -->
+    <script src="assets/vendors/bootstrap/bootstrap.affix.js"></script>
+
+    <!-- Dorang js -->
+    <script src="assets/js/dorang.js"></script>
+
+</body>
+</html>

@@ -11768,3 +11768,12 @@ body.light-theme .contact-section .footer .links a {
 body.dark-theme {
   background: #212529;
 }
+
+/* Map CSS */
+/* Set the size of container for map to size of map */
+#map {
+  height: 400px;
+  /* The height is fixed at 400 pixels */
+  width: 100%;
+  /* The width is the width of the web page */
+}
