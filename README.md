@@ -18,7 +18,7 @@ Our goal in GraceHacks was to stretch our learning through learning new technolo
 Starting off with a steep learning curve, we are proud of the final implementation of our safety map and the empowerment feature that we successfully embedded in our webpage; the process was difficult yet rewarding. Although modifying minor design details and image cohesion was tedious, we are proud of what we achieved! 
 
 ## What we learned
-Parna
+Parna learned how to start an HTML project from scratch. Managing time properly and breaking down a large project into smaller parts is also something that she learned is beneficial when beginning to hack. Embedding APIs and other software involved a learning curve but it helped make our project more versatile.
 - begin html project
 - defining project scope
 - breaking down project into parts
