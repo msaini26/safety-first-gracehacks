@@ -4,24 +4,29 @@ function initMap() {
     // center of ucsc map - music building
     center: {lat: 36.993285007853096, lng: -122.06058681478636},
   });
+
+  const lampostImg = document.createElement("img");
+  lampostImg.width = "50"; // define lampost image size (width)
+  lampostImg.height = "55"; // define lampost image size (height)
+  lampostImg.src = "../assets/imgs/lampost.png"; // import lampost image
+
+
   const infoWindow = new google.maps.InfoWindow({
-    content: "",
+    content: lampostImg,
     disableAutoPan: true,
   });
+
+ 
   // Create an array of alphabetical characters used to label the markers.
-  const labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
   // Add some markers to the map.
   const markers = locations.map((position, i) => {
-    const label = labels[i % labels.length];
     const marker = new google.maps.Marker({
       position,
-      label,
     });
 
     // markers can only be keyboard focusable when they have click listeners
     // open info window when marker is clicked
     marker.addListener("click", () => {
-      infoWindow.setContent(label);
       infoWindow.open(map, marker);
     });
     return marker;
@@ -95,16 +100,6 @@ const locations = [
   { lat: 36.999790720983604, lng: -122.05746809916785},
   { lat: 37.000082, lng: -122.057125},
 
-
-
-  
-
-
-  // List of Bright Areas on Campus
-
-  
-  // Health Center
-  // Main Roads
 ];
 
 window.initMap = initMap;
