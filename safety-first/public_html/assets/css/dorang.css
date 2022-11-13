@@ -11806,3 +11806,7 @@ body.dark-theme {
 #pics{
   margin-bottom: 2rem !important;
 }
+
+#canvas {
+  padding: 40px;
+}
