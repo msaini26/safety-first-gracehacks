@@ -20,9 +20,9 @@
     <nav class="page-navbar" data-spy="affix" data-offset-top="10">
         <ul class="nav-navbar container">
             <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
-            <li class="nav-item"><a href="maps.html" class="nav-link">Explore</a></li>
+            <li class="nav-item"><a href="maps.html" class="nav-link">Safety Spots</a></li>
             <li class="nav-item"><a href="#" class="nav-link"><img src="assets/imgs/placeholder.svg" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, weber Landing page"></a></li>
-            <li class="nav-item"><a href="journal.html" class="nav-link">Journal</a></li>
+            <li class="nav-item"><a href="journal.html" class="nav-link">Empowerment</a></li>
             <li class="nav-item search">
                 <a href="javascript:void(0)" class="nav-link search-toggle"><i class="ti-search"></i> Search</a>
                 <div class="search-wrapper">
@@ -101,7 +101,9 @@
         </div><!-- end of row -->
     </div> <!-- end of page container -->
 
-    <div>Teachable Machine Pose Model</div>
+
+
+<div>Teachable Machine Pose Model</div>
 <button type="button" onclick="init()">Start</button>
 <div><canvas id="canvas"></canvas></div>
 <div id="label-container"></div>
@@ -112,7 +114,7 @@
     // https://github.com/googlecreativelab/teachablemachine-community/tree/master/libraries/pose
 
     // the link to your model provided by Teachable Machine export panel
-    const URL = "./my_model/";
+    const URL = "https://teachablemachine.withgoogle.com/models/CiTBGxeld/";
     let model, webcam, ctx, labelContainer, maxPredictions;
 
     async function init() {
