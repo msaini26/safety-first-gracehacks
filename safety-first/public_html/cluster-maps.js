@@ -1,6 +1,6 @@
 function initMap() {
   const map = new google.maps.Map(document.getElementById("map"), {
-    zoom: 14,
+    zoom: 13.4,
     // center of ucsc map - music building
     center: {lat: 36.993285007853096, lng: -122.06058681478636},
   });
@@ -99,7 +99,15 @@ const locations = [
   // Cowell Student Health Center (by C9/C10)
   { lat: 36.999790720983604, lng: -122.05746809916785},
   { lat: 37.000082, lng: -122.057125},
-
+  { lat: 36.999765, lng: -122.055993},
+  { lat: 36.99717145714735, lng: -122.05259380708841},
+  { lat: 36.99675694783826, lng: -122.05163721666824},
+  { lat: 36.99498050584373, lng: -122.05425271242856},
+  { lat: 36.99373844274689, lng: -122.05443770117074},
+  { lat: 36.99675558052765, lng: -122.05200709884053},
+  { lat: 36.9972754959928, lng: -122.05361560152298},
+  { lat: 36.99868025184651, lng: -122.05462966014194},
+  { lat: 36.99881642577906, lng: -122.05501254952493},
 ];
 
 window.initMap = initMap;
