@@ -11802,3 +11802,7 @@ body.dark-theme {
 #dark-power {
   background-color: rgb(0, 102, 102);
 }
+
+#pics{
+  margin-bottom: 2rem !important;
+}
