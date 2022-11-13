@@ -11080,6 +11080,8 @@ a:hover {
   transition: all, 1.2s;
   opacity: 0;
   visibility: hidden;
+  padding-left: 25px;
+  padding-right: 25px;
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -11678,7 +11680,7 @@ body.light-theme .theme-selector .spinner i {
 }
 
 body.light-theme .header {
-  background-image: url(../imgs/header-light.jpg);
+  background-image: url(../imgs/lighter.jpg);
 }
 
 body.light-theme .header .overlay {
