@@ -135,7 +135,8 @@
 
         // append/get elements to the DOM
         const canvas = document.getElementById("canvas");
-        canvas.width = size; canvas.height = size;
+        canvas.width = size; 
+        canvas.height = size;
         ctx = canvas.getContext("2d");
         labelContainer = document.getElementById("label-container");
         for (let i = 0; i < maxPredictions; i++) { // and class labels
@@ -188,6 +189,11 @@
 
     <!-- Dorang js -->
     <script src="assets/js/dorang.js"></script>
+
+    <!-- Model -->
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.3.1/dist/tf.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@teachablemachine/pose@0.8.3/dist/teachablemachine-pose.min.js"></script>
+
 
 </body>
 </html>
