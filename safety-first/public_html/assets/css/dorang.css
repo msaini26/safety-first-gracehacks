@@ -11774,7 +11774,7 @@ body.dark-theme {
 /* Map CSS */
 /* Set the size of container for map to size of map */
 #map {
-  height: 400px;
+  height: 650px;
   /* The height is fixed at 400 pixels */
   width: 100%;
   /* The width is the width of the web page */
