@@ -14,7 +14,8 @@
 
     <!-- Import JS files -->
     <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
-    <script type="module" src="maps.js"></script>
+    <script type="module" src="cluster-map.js"></script>
+    <!-- modify js file import as necessary -->
 
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="40" id="home" class="dark-theme">
@@ -55,15 +56,6 @@
         </div>
     </header><!-- end of page header -->
 
-    <!-- modal -->
-    <div class="modalBox">
-        <div class="modalBox-body">
-            <iframe width="100%" height="450px" class="border-0" 
-            src="https://www.youtube.com/embed/tgbNyZ7vqY?controls=0">
-            </iframe>
-        </div>          
-    </div><!-- end of modal -->
-
     <!-- page container -->
     <div class="container page-container">
         <div class="col-md-10 col-lg-8 m-auto">
@@ -74,12 +66,13 @@
 
         <div class="col-md-10 col-lg-8 m-auto">
             <p class="mb-5">Describe the pin points down below. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim.</p>
+            tempor hi ut labore et dolore magna aliqua. Ut enim.</p>
         </div>
         
         <!-- row -->
         <div class="row mb-5">
             <div class="col-md-12">
+                <!-- Single point map -->
                 <!--The div element for the map -->
                 <div class="card-img" id="map"></div>
 
@@ -89,10 +82,17 @@
                 and consistent behavior across browsers, consider loading using Promises
                 with https://www.npmjs.com/package/@googlemaps/js-api-loader.
                 -->
+                <!-- Load script based on personal API -->
                 <script
                 src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&callback=initMap&v=weekly"
                 defer
-                ></script>
+              ></script>
+
+              <!-- Executive map with clusters -->
+              <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&callback=initMap&v=weekly"
+      defer
+    ></script>
                 <div class="card-body">
 
                     <p>Describe KEY REFERENCE HERE. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
