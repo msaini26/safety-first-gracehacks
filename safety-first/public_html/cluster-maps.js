@@ -82,6 +82,9 @@ const locations = [
   // Coolidge Dr & Hagar Ct (UCSC - Lower Campus)
   { lat: 36.981735664745045, lng: -122.05217698570723 },
   { lat: 36.981564254809946, lng: -122.0517585610912 },
+  // Crown Dining Hall
+  { lat: 37.000173678672345, lng: -122.0543577892635 },
+
 
   // List of Bright Areas on Campus
 
