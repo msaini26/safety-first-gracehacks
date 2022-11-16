@@ -1,5 +1,8 @@
 # safety-first-gracehacks
 
+# Update 
+Won "Best UI/UX" Hack at GraceHacks
+
 ## Inspiration
 
 Walking alone at night on campus with uncertainty is the worst feeling as a student. As the number of CruzAlerts (Safety Alert System organized by the University of California, Santa Cruz) regarding incidents that have made students and faculty feel unsafe increased, we decided to take matters into our own hands. With Safety First, we aim to help students get home safer feeling empowered.
